@@ -6,8 +6,9 @@ import { Button, Navbar, Nav,Form,FormControl } from 'react-bootstrap';
 function Footer(){
     return (
         <div className='footerContainer'>
-           <div classname='footerInside'>
-               <h1> Made By Kshitij Darekar</h1>
+           <div classname='footerInside'  >
+               <span className='footerText'> Made By Kshitij Darekar</span>
+               <span><i class="fab fa-linkedin"></i></span>
            </div>
         </div>
     )

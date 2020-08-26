@@ -11,10 +11,7 @@ function Property(){
     return (
         <div>
             <MathIntro/>             
-            <img src={require('./assets/involute.jpg')} /><br/>
-            
-            <Sidebar/>
-             
+            {/* <Sidebar/>      */}
             <div>
                 <MathGeometry/>
                 <MathRect/>

@@ -28,8 +28,8 @@ function Slides(){
                 />
 
                 <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Wow.</p>
+                <h3>Sunflower</h3>
+                <p>Plants that are formed in spirals, such as pinecones, pineapples and sunflowers, illustrate Fibonacci numbers</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
