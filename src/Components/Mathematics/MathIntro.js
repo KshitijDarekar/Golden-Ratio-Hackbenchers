@@ -13,11 +13,12 @@ function MathIntro(){
         <>
         {/* <img className = "mathsImg" src={maths}/> */}
         <img className = "mathsImg2" src={require('../../assets/math.gif')} /> <br/>
-        <img className = "strollimg" src={require('../../assets/strolling.svg')} /> <br/>
+        {/* <img className = "strollimg" src={require('../../assets/strolling.svg')} /> <br/> */}
         
         <div className='mathintro'style={styles}>
         <img className = "mathsImg" src={maths}/>
-        
+        <img className = "mathsImg-rect" src={require('../../assets/SimilarGoldenRectangles.svg')} /> <br/>
+
         
                 <h1 >Mathematics   </h1>
                 <p >
@@ -37,11 +38,15 @@ function MathIntro(){
                      <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d4010f92e33cc559bc8d7f24b4ed017273a0628d" class="mwe-math-fallback-image-inline" aria-hidden="true"  alt="\varphi ={\frac {1+{\sqrt {5}}}{2}}=1.6180339887\ldots ." />
 
                     <br/>
-                
+                    <img className = "ratioline" src={require('../../assets/Golden_ratio_line.svg')} /> <br/>
+
                  </p>
                  <br/>
+                 <img className = "strollimg" src={require('../../assets/jumping.svg')} />
+
                  <p>
                  Two quantities a and b are said to be in the golden ratio φ if <br/>
+
                  <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/cf7e51356f54a831db021e7e46922c778bbd91c0" class="mwe-math-fallback-image-inline" aria-hidden="true"  alt="{\frac {a+b}{a}}={\frac {a}{b}}=\varphi ."></img>
                  <br/>
                  One method for finding the value of φ is to start with the left fraction. Through simplifying the fraction and substituting in<br/>
@@ -51,7 +56,6 @@ function MathIntro(){
                  <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/73516b60e9391da6113e1df0eab685d732451cc2" class="mwe-math-fallback-image-inline" aria-hidden="true"  alt="1+{\frac {1}{\varphi }}=\varphi ."></img><br/>
                  Multiplying by φ gives
 
-                 <img className = "strollimg" src={require('../../assets/jumping.svg')} />
                  <br/>
                  <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/7452e786dfd2a1a3e0cdc7cf38b508d0ccb43796" class="mwe-math-fallback-image-inline" aria-hidden="true"  alt="\varphi +1=\varphi ^{2}" /><br/>
                  which can be rearranged to

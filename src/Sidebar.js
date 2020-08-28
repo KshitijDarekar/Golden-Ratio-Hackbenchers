@@ -8,7 +8,8 @@ function Sidebar(){
     return (
         <div className='sidebar'>
         <>
-        <Card className="mathCard" style={{ width: '20rem' }}>
+        <Card className="mathCard" >
+        {/* style={{ width: '20rem' } */}
             
   <Card.Img variant="top" src={require('./assets/fib1.gif')} />
   <Card.Body>

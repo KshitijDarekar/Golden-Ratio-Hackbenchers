@@ -8,6 +8,9 @@ function MathRect(){
 
         <div className='rectangle'>
                 <h3>The Golden Rectangle</h3>
+                <img className = "maths-rect-2" src={require('../../assets/Golden_Rectangle_Construction.svg')} /> <br/>
+
+                
                 <p>
                 In geometry, a golden rectangle is a rectangle whose side lengths are in the golden ratio, 
                 <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/44db8a4b37b3b565433c4337a2197175615beff0" class="mwe-math-fallback-image-inline" aria-hidden="true" alt="1:\varphi " />

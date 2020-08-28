@@ -21,8 +21,10 @@ function IntroThree(){
 <strong>Rule of Thirds</strong> - In Photography/Design, the Rule of Thirds is arguably the strongest, most important rule of composition.
  It tends to provide the overall framework for an image, creating “balance” and allowing other compositional elements to work within your photo.
  At the very least its a good starting point when composing a shot.<br/>
+                 {/* <img className = "golden-fibonacci" src={require('./assets/golden-fibonacci.gif')} />  */}
+
                 </p>
-            
+                <img className = "golden-fibonacci" src={require('./assets/golden-fibonacci.gif')} /> 
 
             </div>
              

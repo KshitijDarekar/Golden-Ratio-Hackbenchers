@@ -3,11 +3,6 @@ import Jumbotron from 'react-bootstrap/Jumbotron'
 import CardDeckOne from './CardDeckOne.js'
 import CardDeckTwo from './CardDeckTwo.js'
 
-const styles = {
-    height : '10rem',
-    width : '20rem',
-  
-}
 function Application(){
         return(
             <div>

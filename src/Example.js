@@ -6,6 +6,7 @@ function Example(){
         return(
             
             <div class="flex-wrapper">
+                {/* <img className = "reading" src={require('./assets/reading.svg')} /> <br/> */}
                <Slides/>
             </div>
         )

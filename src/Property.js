@@ -9,10 +9,11 @@ import MathFib from './Components/Mathematics/MathFib.js'
 
 function Property(){
     return (
-        <div>
-            <MathIntro/>             
+        <div className="math-container">
+            <MathIntro/>            
             {/* <Sidebar/>      */}
             <div>
+
                 <MathGeometry/>
                 <MathRect/>
                 <MathFib/>

@@ -4,7 +4,7 @@ import Image from 'react-bootstrap/Image'
 import meditate from "./assets/meditate.svg";
 import Sidebar from './Sidebar.js';
 import IntroThree from './IntroThree.js'
-
+import Video from './Video.js'
 
 function Introduction(){
     return(
@@ -50,6 +50,7 @@ Golden ratio has its applications in all aspects of nature, art, finance, and mu
 
              </p>
              <Image className="frontpageImg" src={require('./assets/fib1.gif')} fluid />
+             <Video/>
 
             <IntroThree/>
 
