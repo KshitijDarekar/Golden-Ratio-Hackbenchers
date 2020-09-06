@@ -8,6 +8,7 @@ import  Example from './Example.js' ;
 import  Property from './Property.js' ;
 import Application from './Application.js';
 import Footer from './Footer.js';
+import More from './More.js';
 
 
 
@@ -25,6 +26,7 @@ function App() {
           {/* <Example/>                  */}
           <Route path="/property" component={Property} />
           <Route path="/application" component={Application} />
+          <Route path="/more" component={More} />
         </Switch>
         <Footer/>
         

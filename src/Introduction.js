@@ -9,12 +9,16 @@ import Video from './Video.js'
 function Introduction(){
     return(
         <div className="introduction-wrapper">
+            {/* <div className="header-image">
+            </div> */}
+
             <div>
+            
             <div className="frontpage">
-                <h1>What is Golden Ratio?<img className = "meditate" src={meditate}/></h1>
+                <h1>What is Golden Ratio?<img className = "meditate .hvr-icon-forward:before" src={meditate}/></h1>
             </div>
             <div>
-                <p className="Intropara">
+                <p className="Intropara hvr-grow-shadow">
                 The Golden ratio is a special irrational number like pi (π) represented as phi, Φ. 
                 Its value is around 1.61803398874989484820... If the ratio of 2 numbers turns out to be tending to this 1.618 special value, the two numbers are said to be in Golden Ratio. These 2 numbers can be anything, from sides of a rectangle to curvature of spirals. Rule of thumb is, just remember that if the ratio of 2 things converges to 1.61803398874989484820 or anything even near that value, these things are said to be in Golden Ratio. By definition, Two numbers are in the golden ratio if the ratio of the sum of the numbers (a+b) divided by the larger number (a) is equal to the ratio of the larger number divided by the smaller number (a/b).
                 
@@ -28,7 +32,7 @@ function Introduction(){
                 <img className="App-logo" src={require('./assets/thoughts.svg')} />
 
             </h1>
-             <p className="Intropara2">
+             <p className="Intropara2 hvr-grow-shadow">
              The golden ratio is best approximated by the famous "Fibonacci numbers."
               Fibonacci numbers are a never-ending sequence starting with 0 and 1 and continuing by adding the previous two numbers. 
               The next numbers in the Fibonacci sequence, for instance, are 1,2,3, and 5.

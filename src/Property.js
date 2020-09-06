@@ -10,13 +10,16 @@ import MathFib from './Components/Mathematics/MathFib.js'
 function Property(){
     return (
         <div className="math-container">
-            <MathIntro/>            
+            
+            {/* <MathIntro/>             */}
             {/* <Sidebar/>      */}
             <div>
-
-                <MathGeometry/>
+            {/* <div className="header-image-math hvr-wobble-bottom">
+            </div> */}
+            <MathIntro/>                        
+                <MathGeometry/> 
                 <MathRect/>
-                <MathFib/>
+                <MathFib/> 
             </div>   
         </div>
     )
