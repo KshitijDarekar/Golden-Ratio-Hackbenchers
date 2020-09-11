@@ -3,9 +3,10 @@ import Carousel from 'react-bootstrap/Carousel'
 
 
 function Slides(){
-        
+    
+
         return(
-          <div class="slide-container">
+          <div className="slide-container">
              <Carousel>
             <Carousel.Item>
                 <img

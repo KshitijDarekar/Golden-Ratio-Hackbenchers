@@ -2,6 +2,8 @@ import React from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import CardDeckOne from './CardDeckOne.js'
 import CardDeckTwo from './CardDeckTwo.js'
+import Carousels from './Carousel.js'
+import CardDeck from './More.js'
 
 function Application(){
         return(
@@ -14,9 +16,11 @@ function Application(){
                     Infact its upon you to find its applications in
                     your surroundings. 
                     </p>
-                </Jumbotron>    
-                <CardDeckOne/>
-                <CardDeckTwo/>
+                </Jumbotron>
+                <Carousels/>
+                <CardDeck/>    
+                {/* <CardDeckOne/>
+                <CardDeckTwo/> */}
             </div>
         )
 }

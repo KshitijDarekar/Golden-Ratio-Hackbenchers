@@ -11,11 +11,11 @@ function MathFib(){
             
             <Row className="v-spacer">
                 <Col xs={12} md={4}>
-                    <img style={{maxWidth:'250px'}} src={require('../../assets/fib2.gif')}/>
+                    <img data-aos="fade-right"style={{maxWidth:'250px'}} src={require('../../assets/fib2.gif')}/>
                 </Col>
 
                 <Col  xs={12} md={8}>
-                <div className='info-container'>
+                <div data-aos="fade-left" className='info-container'>
                     <h1>Relationship to Fibonacci sequence</h1>
                     <p>
                         The mathematics of the golden ratio and of the Fibonacci sequence are intimately interconnected. The Fibonacci sequence is:

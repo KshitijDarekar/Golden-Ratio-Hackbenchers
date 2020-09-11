@@ -10,7 +10,8 @@ function MathGeometry(){
             
             <Row className="v-spacer">
                 <Col  xs={12} md={8}>
-                <div className='info-container'>
+                <div data-aos="fade-right
+                " className='info-container'>
                 <img className = "Icosahedron-golden-rectangles" src={require('../../assets/Icosahedron-golden-rectangles.png')} />
                  <h1>Geometry</h1>
   
@@ -24,7 +25,7 @@ function MathGeometry(){
                  </div>         
                 </Col>
                 <Col xs={12} md={4}>
-                    <img className = "golden-rectangles-3" src={require('../../assets/3-golden-rectangles.gif')} /> 
+                    <img data-aos="fade-left" className = "golden-rectangles-3" src={require('../../assets/3-golden-rectangles.gif')} /> 
                 </Col>
             </Row>
         </Container >    

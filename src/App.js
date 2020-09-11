@@ -9,16 +9,21 @@ import  Property from './Property.js' ;
 import Application from './Application.js';
 import Footer from './Footer.js';
 import More from './More.js';
+// import ProgressBar from 'react-bootstrap/ProgressBar'
 
 
 
 
 
 function App() {
+
+
+  
   return (
     <BrowserRouter>
       <div className="App">
         <NavbarComponent />
+        {/* <ProgressBar animated now={45} /> */}
         <Switch>
           <Route path="/" exact component={Introduction} />
           {/* <Introduction/> */}

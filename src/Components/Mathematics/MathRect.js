@@ -11,7 +11,7 @@ function MathRect(){
             
             <Row className="v-spacer">
                 <Col  xs={12} md={8}>
-                <div className='info-container'>
+                <div data-aos="fade-right" className='info-container'>
                 <h3>The Golden Rectangle</h3>
                  <img className = "maths-rect-2" style={{maxWidth:'300px'}} src={require('../../assets/Golden_Rectangle_Construction.svg')} /> <br/>
 

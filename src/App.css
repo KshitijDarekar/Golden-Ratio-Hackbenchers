@@ -1,17 +1,21 @@
 body{
   background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
-  background-image: url('./assets/header.svg');
+  /* background-image: url('./assets/header.svg'); */
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .math-container .container{
   max-width: 100%;
-} 
+}
 .info-container{
   background-color: blanchedalmond;
     font-weight: 400;
     font-size: 28px;
     padding: 10px 15px;
+    box-shadow: 3px 6px rgba(0,0,0,0.2)!important;
+    border-radius: 10px;
+
 }
 .v-spacer {
   padding: 20px 0px;
@@ -27,18 +31,34 @@ body{
 
 }
 
+
 @media (max-width: 576px){
   .header-image {
-    background: url("./assets/header.svg");
-  background-size: inherit;
-  max-height: 200px;
-  background-attachment: fixed;
+    /* background: url("./assets/header.svg"); */
+    background: url("./assets/math_bg2.jpg");
+
   -webkit-margin-top-collapse: collapse;
   }
+  .back{
+    background:url("./assets/mathsbg.jpg")!important;
+    background-size: inherit!important;
+    max-height: 200px!important;
+    background-attachment: fixed!important;
+    box-shadow: 3px 6px rgba(0,0,0,0.2)!important;
+}
+}
+
+.back{
+  background:url("./assets/mathsbg.jpg")!important;
+  background-size: cover!important;
+  height: 500px!important;
+  background-attachment: fixed!important;
+  box-shadow: 3px 6px rgba(0,0,0,0.2)!important;
 }
 
 .header-image{
-  background: url("./assets/header.svg");
+  /* background: url("./assets/header.svg"); */
+  background: url("./assets/math_bg2.jpg");
   background-size: cover;
   height: 500px;
   background-attachment: fixed;
@@ -49,7 +69,7 @@ body{
 }
 
 .Intropara{
-  font-size: 20px; 
+  font-size: 20px;
   margin: 20px 20px 20px 20px;
   padding: 10px;
   background-color: azure;
@@ -122,7 +142,7 @@ body{
 .App {
   text-align: center;
   transition: 0.6s ease-out;
-  padding-bottom: 80px;
+  /* padding-bottom: 80px; */
 }
 
 .meditate{
@@ -161,7 +181,7 @@ body{
   }
   to {
     transform: rotate(360deg);
-    
+
   }
 }
 .mathCard{
@@ -173,11 +193,15 @@ body{
 
   max-width: 250px;
     max-height: 100vh
-  
+
 }
-.d-block w-100{
+active carousel-item.d-block w-100{
   max-height: 400px;
   max-width: 800px;
+  /* display: flex!important; */
+  flex-wrap: wrap;
+  justify-content: center;
+  display:none!important
 }
 /* Application */
 .bg-light text-dark card{
@@ -191,17 +215,21 @@ body{
 }
 
 
+.math{
+  background: url("./assets/math_bg2.jpg")!important;
 
+}
 
-.header-image-math{
-  background: url("./assets/mathsbg.jpg");
+.header-image{
+  /* background: url("./assets/math_bg3.jpg"); */
+  background: url("./assets/math_bg2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
   background-attachment: fixed;
   opacity: 0.75;
   box-shadow: 3px 6px rgba(0,0,0,0.2);
-  
+
 
 }
 /* .add{
@@ -216,7 +244,7 @@ body{
 }
   .mathsImg{
   height: 50vmin;
-  
+
 }
 .ratioline{
 
@@ -250,9 +278,9 @@ display: contents;
 }
 .mathintro{
   box-shadow: 3px 6px rgba(0.5,0.75,0.5,0.5);
-  padding :25px; 
+  padding :25px;
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 .mathsImg-rect{
   position: absolute;
@@ -266,7 +294,7 @@ display: contents;
 
 .geometry , .rectangle , .fibonacci{
 
-  
+
 
   background-color: cornsilk;
   position: relative;
@@ -308,10 +336,10 @@ display: contents;
  /* margin-top: 50px;
  background-color: #343a40;
  border-top: wheat;
- position: relative; */ 
+ position: relative; */
  background-color: #222b37;
     color: #fff;
-    position: fixed;
+    position: relative;
     bottom: 0px;
     width: 100%;
     z-index: 999;
@@ -319,12 +347,12 @@ display: contents;
 
 .footerInside{
   text-align: center;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 .footerText{
   color: white;
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 400;
   justify-content: center;
   flex-basis: 100%;
@@ -358,12 +386,13 @@ display: contents;
 
 }
 .slide-container {
-  width: 50%;
-  margin-top: 10px;
+  /* width: 50%;
+  margin-top: 10px; */
+  height: 50%;
 }
 
 .slide-container .carousel {
-  left: 50%
+  /* left: 25% */
 }
 
 

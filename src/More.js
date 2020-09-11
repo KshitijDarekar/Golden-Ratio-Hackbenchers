@@ -4,67 +4,149 @@ import Sidebar from './Sidebar.js';
 import Image from 'react-bootstrap/Image'
 import CardDeck from 'react-bootstrap/CardDeck'
 import Card from 'react-bootstrap/Card'
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
 
 import Temp from './Temp.js'
-import Img1 from './assets/art.jpg'
+import Geometry from './assets/geometry.png'
+import PlasticSurgery from './assets/plastic.jpg'
+import Art from './assets/art.jpg'
+import Nature from './assets/nature2.jpg'
+import MarketAnalysis from './assets/stock.gif'
+import Music from './assets/music.png'
+
+import {Container , Row, Col} from 'react-bootstrap/';
+
 
 function More(){
     return (
         
-        <div className='card-deck-two'  > 
+//         <>
+//         <Container >
+            
+//             <Row className="v-spacer">
+//                 <Col  xs={12} md={8}>
+//                 <CardDeck style={{marginBottom:'40px'}}>
+//              <Temp
+//              url='./assets/art.jpg'
+//              title="Nature"
+//              text="It’s used as a valuable tool for composition decisions on position and proportion in ANY branch of the design arts, including art, logo design, product design, graphic design, cartoon character design, video layout and composition, fashion design, architecture, photography and much more.
+//              Renaissance artists, including Leonardo da Vinci, used it frequently."
+//              url={Img1}
+//              />
+
+//              <Temp
+//              url='./assets/art.jpg'
+//              title="Nature"
+//              text="It’s used as a valuable tool for composition decisions on position and proportion in ANY branch of the design arts, including art, logo design, product design, graphic design, cartoon character design, video layout and composition, fashion design, architecture, photography and much more.
+//              Renaissance artists, including Leonardo da Vinci, used it frequently."
+//              url={Img1}
+//              />
+
+//              <Temp
+//              url='./assets/art.jpg'
+//              title="Nature"
+//              text="It’s used as a valuable tool for composition decisions on position and proportion in ANY branch of the design arts, including art, logo design, product design, graphic design, cartoon character design, video layout and composition, fashion design, architecture, photography and much more.
+//              Renaissance artists, including Leonardo da Vinci, used it frequently."
+//              url={Img1}
+//              />
+
+
+
+
+
+
+
+
+
+
+// <Temp
+//              url='./assets/art.jpg'
+//              title="Nature"
+//              text="It’s used as a valuable tool for composition decisions on position and proportion in ANY branch of the design arts, including art, logo design, product design, graphic design, cartoon character design, video layout and composition, fashion design, architecture, photography and much more.
+//              Renaissance artists, including Leonardo da Vinci, used it frequently."
+//              url={Img1}
+//              />
+
+//              <Temp
+//              url='./assets/art.jpg'
+//              title="Nature"
+//              text="It’s used as a valuable tool for composition decisions on position and proportion in ANY branch of the design arts, including art, logo design, product design, graphic design, cartoon character design, video layout and composition, fashion design, architecture, photography and much more.
+//              Renaissance artists, including Leonardo da Vinci, used it frequently."
+//              url={Img1}
+//              />
+
+//              <Temp
+//              url='./assets/art.jpg'
+//              title="Nature"
+//              text="It’s used as a valuable tool for composition decisions on position and proportion in ANY branch of the design arts, including art, logo design, product design, graphic design, cartoon character design, video layout and composition, fashion design, architecture, photography and much more.
+//              Renaissance artists, including Leonardo da Vinci, used it frequently."
+//              url={Img1}
+//              />
+            
+//              </CardDeck> 
+//                 </Col>
+                
+//             </Row>
+//         </Container >    
+//         </>
+
+
+
+        <div className='card-deck-two v-spacer'  > 
         
             <CardDeck style={{marginBottom:'40px'}}>
             <Temp
-            url='./assets/art.jpg'
-            title="Nature"
+            // url='./assets/art.jpg'
+            title="Art"
             text="It’s used as a valuable tool for composition decisions on position and proportion in ANY branch of the design arts, including art, logo design, product design, graphic design, cartoon character design, video layout and composition, fashion design, architecture, photography and much more.
             Renaissance artists, including Leonardo da Vinci, used it frequently."
-            url={Img1}
+            url={Art}
             />
 
             <Temp
-            url='./assets/art.jpg'
-            title="Nature"
-            text="It’s used as a valuable tool for composition decisions on position and proportion in ANY branch of the design arts, including art, logo design, product design, graphic design, cartoon character design, video layout and composition, fashion design, architecture, photography and much more.
-            Renaissance artists, including Leonardo da Vinci, used it frequently."
-            url={Img1}
+            url={PlasticSurgery}
+            title="Plastic surgery"
+            text="It’s used in the facial plastic surgery to help assure that the results of facial proportions and positions are 
+                  natural and aesthetically pleasing.The Golden Ratio can be seen all around us, and many believe that the proportions
+                  of this ratio are naturally pleasing to the human eye.The Golden Ratio represents balance, and balance is aesthetically beautiful."
+            
             />
 
             <Temp
-            url='./assets/art.jpg'
-            title="Nature"
-            text="It’s used as a valuable tool for composition decisions on position and proportion in ANY branch of the design arts, including art, logo design, product design, graphic design, cartoon character design, video layout and composition, fashion design, architecture, photography and much more.
-            Renaissance artists, including Leonardo da Vinci, used it frequently."
-            url={Img1}
+            url={Geometry}
+            title="Mathematics and Geometry"
+            text="Because of its very unique properties in mathematics and frequent appearances in geometry, it is used to teach principles of mathematics and geometry.
+            In modern mathematics, the golden ratio occurs in the description of fractals, figures that exhibit self-similarity and play an important role in the study of chaos and dynamical systems."
+            
             />
             
             </CardDeck>
 
-<CardDeck>
+        <CardDeck>
             <Temp
-            url='./assets/art.jpg'
+            url={Nature}
             title="Nature"
-            text="It’s used as a valuable tool for composition decisions on position and proportion in ANY branch of the design arts, including art, logo design, product design, graphic design, cartoon character design, video layout and composition, fashion design, architecture, photography and much more.
-            Renaissance artists, including Leonardo da Vinci, used it frequently."
-            url={Img1}
+            text="It’s used to understand the physical proportions and design of living organisms. 
+               It appears not as a universal law or constant, but does appear with surprising frequency.
+               When the golden ratio is applied as a growth factor, you get a type of logarithmic spiral known as a golden spiral."
+            
             />
 
             <Temp
-            url='./assets/art.jpg'
-            title="Nature"
-            text="It’s used as a valuable tool for composition decisions on position and proportion in ANY branch of the design arts, including art, logo design, product design, graphic design, cartoon character design, video layout and composition, fashion design, architecture, photography and much more.
-            Renaissance artists, including Leonardo da Vinci, used it frequently."
-            url={Img1}
+            url={MarketAnalysis}
+            title="Market Analysis"
+            text="Phi (1.618), the Golden Mean and the numbers of the Fibonacci series (0, 1, 1, 2, 3, 5, 8, …)
+                 have been used with great success to analyze and predict stock market moves, known as retracements.
+                It’s used in the analysis of financial markets to predict price and timing inflection points in stock price movements."
+            
             />
 
             <Temp
-            url='./assets/art.jpg'
-            title="Nature"
-            text="It’s used as a valuable tool for composition decisions on position and proportion in ANY branch of the design arts, including art, logo design, product design, graphic design, cartoon character design, video layout and composition, fashion design, architecture, photography and much more.
-            Renaissance artists, including Leonardo da Vinci, used it frequently."
-            url={Img1}
+            url={Music}
+            title="Music"
+            text="Fibonacci and phi relationships are often found in the timing of musical compositions.
+            Ratios found in the first seven numbers of the Fibonacci series ( 0, 1, 1, 2, 3, 5, 8 )
+             are related to key frequencies of musical notes.
+            Fibonacci and phi are used in the design of violins."
             />
             </CardDeck>           
         </div>

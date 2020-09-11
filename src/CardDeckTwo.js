@@ -5,9 +5,9 @@ import CardDeck from 'react-bootstrap/CardDeck'
 function CardDeckTwo(){
 
     return(
-        <div className="card-deck-two">
+        <div data-aos="zoom-in"className="card-deck-two">
             <CardDeck>
-  <Card>
+  <Card data-aos="zoom-in" >
     <Card.Img variant="top" src={require('./assets/nature2.jpg')} />
     <Card.Body>
       <Card.Title>Nature</Card.Title>
@@ -19,8 +19,8 @@ function CardDeckTwo(){
     <Card.Footer>
       <small className="text-muted">Last updated 3 mins ago</small>
     </Card.Footer>
-  </Card>
-  <Card>
+  </Card >
+  <Card data-aos="zoom-in">
     <Card.Img variant="top" src={require('./assets/stock.gif')} />
     <Card.Body>
       <Card.Title>Market Analysis</Card.Title>
@@ -33,12 +33,14 @@ function CardDeckTwo(){
       <small className="text-muted">Last updated 3 mins ago</small>
     </Card.Footer>
   </Card>
-  <Card>
-    <Card.Img variant="top" src={require('./assets/geometry.png')} />
+  <Card data-aos="zoom-in">
+    <Card.Img variant="top" src={require('./assets/music.png')} />
     <Card.Body>
-      <Card.Title>Mathematics and Geometry</Card.Title>
+      <Card.Title>Music</Card.Title>
       <Card.Text>
-      Because of its very unique properties in mathematics and frequent appearances in geometry, it is used to teach principles of mathematics and geometry.
+      Fibonacci and phi relationships are often found in the timing of musical compositions.
+      Ratios found in the first seven numbers of the Fibonacci series ( 0, 1, 1, 2, 3, 5, 8 ) are related to key frequencies of musical notes.
+      Fibonacci and phi are used in the design of violins. 
 
       </Card.Text>
     </Card.Body>

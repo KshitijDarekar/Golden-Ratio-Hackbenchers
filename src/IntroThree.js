@@ -5,7 +5,7 @@ import meditate from "./assets/meditate.svg";
 
 function IntroThree(){
     return(
-        <div className="Para-three-holder ">
+        <div data-aos="fade-left" className="Para-three-holder ">
             {/* frontpage */}
             <div className="Intropara-three">
                 {/* Intropara */}

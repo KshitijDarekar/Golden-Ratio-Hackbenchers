@@ -5,12 +5,12 @@ import CardDeck from 'react-bootstrap/CardDeck';
 function CardDeckOne(){
    
     return(
-        <div className="card-deck-two">
+        <div data-aos="zoom-out" className="card-deck-two">
             <CardDeck>
   <Card>
     <Card.Img variant="top" src={require('./assets/art.jpg')} />
     <Card.Body>
-      <Card.Title>Nature</Card.Title>
+      <Card.Title>Art</Card.Title>
       <Card.Text>
       It’s used as a valuable tool for composition decisions on position and proportion in ANY branch of the design arts, including art, logo design, product design, graphic design, cartoon character design, video layout and composition, fashion design, architecture, photography and much more.
                     Renaissance artists, including Leonardo da Vinci, used it frequently.

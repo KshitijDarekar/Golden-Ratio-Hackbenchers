@@ -10,25 +10,25 @@ import maths from "../../assets/maths.svg"
 // }
 function MathIntro(){
     return (
-        <div className="math-intro-container">
+        <div  className="math-intro-container">
         <>
         {/* <img className = "mathsImg" src={maths}/> */}
           {/* <img className = "mathsImg2" src={require('../../assets/math.gif')} /> <br/> */}
         {/* <img className = "strollimg" src={require('../../assets/strolling.svg')} /> <br/> */}
         <Container >
-            <Row className="v-spacer">
+            <Row >
                 <Col md={12}>
-                    <div className="header-image-math ">
+                    <div  className="header-image">
                     </div>
                 </Col>
             </Row>
-            <Row >
+            <Row  className="v-spacer">
                 <Col xs={12} md={4}>
-                <img className ="" src={require('../../assets/math.gif')} /> <br/>
+                <img data-aos="fade-right" className ="" src={require('../../assets/math.gif')} /> <br/>
                 
                 </Col>
                 <Col xs={12} md={8}>
-                    <div className="info-container" >
+                    <div data-aos="fade-left" className="info-container" >
                         <img className = "mathsImg" src={maths}/>
                         <h1 >Mathematics   </h1>
                         <p >
