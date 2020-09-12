@@ -4,6 +4,7 @@ import CardDeckOne from './CardDeckOne.js'
 import CardDeckTwo from './CardDeckTwo.js'
 import Carousels from './Carousel.js'
 import CardDeck from './More.js'
+import Gallery from './Gallery.js'
 
 function Application(){
         return(
@@ -21,6 +22,7 @@ function Application(){
                 <CardDeck/>    
                 {/* <CardDeckOne/>
                 <CardDeckTwo/> */}
+                <Gallery/>
             </div>
         )
 }

@@ -3,6 +3,7 @@ body{
   /* background-image: url('./assets/header.svg'); */
   background-size: cover;
   background-attachment: fixed;
+  
 }
 
 .math-container .container{
@@ -15,8 +16,8 @@ body{
     padding: 10px 15px;
     box-shadow: 3px 6px rgba(0,0,0,0.2)!important;
     border-radius: 10px;
-
 }
+
 .v-spacer {
   padding: 20px 0px;
 }
@@ -45,6 +46,7 @@ body{
     max-height: 200px!important;
     background-attachment: fixed!important;
     box-shadow: 3px 6px rgba(0,0,0,0.2)!important;
+    background-position:center!important;
 }
 }
 
@@ -54,6 +56,7 @@ body{
   height: 500px!important;
   background-attachment: fixed!important;
   box-shadow: 3px 6px rgba(0,0,0,0.2)!important;
+  background-position:center!important;
 }
 
 .header-image{
@@ -65,6 +68,7 @@ body{
   margin-left: 0;
   margin-right: 0;
   box-shadow: 3px 6px rgba(0,0,0,0.2);
+  background-position:center!important;
 
 }
 
@@ -142,7 +146,7 @@ body{
 .App {
   text-align: center;
   transition: 0.6s ease-out;
-  /* padding-bottom: 80px; */
+  /* overflow-x: hidden; */
 }
 
 .meditate{
@@ -232,6 +236,7 @@ active carousel-item.d-block w-100{
 
 
 }
+
 /* .add{
   margin-left: 80px;
   margin-right: 80px;
@@ -242,28 +247,22 @@ active carousel-item.d-block w-100{
   display: flex;
   flex-wrap: wrap;
 }
+/* Image of MathInto */
   .mathsImg{
   height: 50vmin;
-
 }
-.ratioline{
 
-}
-.mathsImg2{
+/* .mathsImg2{
   left: 4rem;
   position: absolute;
   height: 16rem;
   width : 20rem;
-  /* margin-left: 25px;
-  margin-top: 60px; */
   border: darkslategray;
   border-width: 20px;
   box-shadow: 3px 6px rgba(0.5,0.75,0.5,0.5);
   border-radius: 20px;
-  /* left: 7%;
-  position: absolute;
-  top: 15rem; */
-}
+ 
+} */
 .strollimg{
   height: 60vmin;
   width : 35vmin;
@@ -282,7 +281,7 @@ display: contents;
   display: flex;
   flex-wrap: wrap;
 }
-.mathsImg-rect{
+/* .mathsImg-rect{
   position: absolute;
   top: 47em;
   left: 2em;
@@ -290,41 +289,19 @@ display: contents;
   background: floralwhite;
   border-radius: 2rem;
   color: black;
-}
-
-.geometry , .rectangle , .fibonacci{
+} */
 
 
+/* .maths-rect-2{
 
-  background-color: cornsilk;
-  position: relative;
-  margin:20px 30px 0 400px;
-  font-weight: 400;
-  font-size: 28px;
-  line-height: 3rem;
-  padding: 25px ;
-  box-shadow: 3px 6px rgba(0.5,0.75,0.5,0.5);
-
-}
-.maths-rect-2{
-
-}
+} */
 .golden-rectangles-3 {
-    /* position: absolute;
-    left: -25rem; */
     max-width: 300px;
-    /* top: inherit;
-    border: white;
-    border-width: thick;
-    border-style: groove; */
 }
 
 .Icosahedron-golden-rectangles{
     max-width: 300px;
     max-height: 500px;
-    /* position: absolute;
-    top: 50%;
-    left: -25rem; */
 }
 
 /* footer */
