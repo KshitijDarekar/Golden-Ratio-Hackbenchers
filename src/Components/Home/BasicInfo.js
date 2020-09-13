@@ -4,8 +4,8 @@ import '../../App.css';
 // This is the last part of Home Component
 function BasicInfo(){
     return(
-    <div  className="Para-three-holder ">
-        <div className="Intropara-three">
+    <div  className="Para-three-holder v-spacer ">
+        <div className="Intropara-three v-spacer">
             <p className="Intropara-three-text">
             <span style={{fontSize:'40px',fontWeight: '500',lineHeight:'1.2'}}>The Golden Ratio</span><br/>
             <span>Let's learn some basic things related to Golden Ratio:</span><br/>
