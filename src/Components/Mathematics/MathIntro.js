@@ -11,7 +11,7 @@ function MathIntro(){
         <Container >
             <Row >
                 <Col md={12}>
-                    <div  className="header-image ">
+                    <div  className="header-image v-spacer ">
                        <span style={{fontSize:'40px',fontWeight:'700',paddingTop:'52px',color:'floralWhite',
                         textShadow: '3px 6px rgba(50,50,70,0.5)', fontFamily: 'cursive' }}> 
                        Is all beauty Mathematics?</span>
@@ -23,10 +23,10 @@ function MathIntro(){
                 <img  alt="" src={require('../../assets/math.gif')} /> <br/>
                 
                 </Col>
-                <Col className="v-spacer" data-aos="fade-up" xs={12} md={8}>
+                <Col  data-aos="fade-up" xs={12} md={8}>
                     <div  className="info-container" >
                         <img className = "mathsImg" alt="" src={maths}/>
-                        <h1 >Mathematics   </h1>
+                        <h1 >Mathematics </h1>
                         <p >
                             
                             In mathematics, two quantities are in the golden ratio if their ratio is the same as the ratio of their sum to the larger of the two quantities.
