@@ -2,7 +2,7 @@ import React from "react";
 import "../../App.js";
 import {Container , Row, Col} from 'react-bootstrap/';
  
-
+// Geometry Page starts here
 function MathGeometry(){
     return (
         <>
@@ -11,7 +11,7 @@ function MathGeometry(){
             <Row className="v-spacer">
                 <Col  xs={12} md={8}>
                 <div data-aos="fade-up"className='info-container'>
-                <img  className = "Icosahedron-golden-rectangles" alt="" src={require('../../assets/Icosahedron-golden-rectangles.png')} />
+                <img  className = "Icosahedron-golden-rectangles v-spacer" alt="" src={require('../../assets/Icosahedron-golden-rectangles.png')} />
                  <h1>Geometry</h1>
   
                  <p>
@@ -23,8 +23,8 @@ function MathGeometry(){
                  </p>
                  </div>         
                 </Col>
-                <Col xs={12} md={4}>
-                    <img data-aos="fade-up" className = "golden-rectangles-3" alt="" src={require('../../assets/3-golden-rectangles.gif')} /> 
+                <Col  xs={12} md={4}>
+                    <img data-aos="fade-up" className = "golden-rectangles-3 v-spacer" alt="" src={require('../../assets/3-golden-rectangles.gif')} /> 
                 </Col>
             </Row>
         </Container >    

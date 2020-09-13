@@ -11,13 +11,14 @@ const style ={
     borderRadius: '10px',
 
 }
+// Gallery Data with Filter start from here 
 function Gallery(){
-    // by Using arrow function handleClick can be rendered many times
     const [filterData,setData]=useState(GalleryData) // By Default pass GalleryData to display all the images 
-     const handleClick=(e) => {
+    // by Using arrow function handleClick can be rendered many times
+    const handleClick=(e) => {
         
             if(e==='all'){
-                // if showall data is clicked then all the data is passed down without filter
+                // if showall data(button) is clicked then all the data is passed down without filter
                 setData(GalleryData)
             }
             else{
@@ -49,7 +50,7 @@ function Gallery(){
             <Row >
             {filterData.map(item => 
                 // Map data from filterData
-                <Col data-aos="zoom-in" className='v-spacer' key={item.id} md={4} sm={12}  xs={12} >
+                <Col data-aos="zoom-in" className='v-spacer' key={item.id} lg={4} md={6} sm={12}  xs={12} >
                     <img  style={style} alt={item.alt}  src={item.url}  />
                 </Col>
                 )

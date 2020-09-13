@@ -2,7 +2,7 @@ import React from "react";
 import "../../App.js";
 import {Container , Row, Col} from 'react-bootstrap/';
 
-
+//Fibonacci in Golden Ratio Page starts here,its the end of Mathematics Component
 function MathFib(){
     return (
 
@@ -11,7 +11,7 @@ function MathFib(){
             
             <Row className="v-spacer">
                 <Col data-aos="fade-up" xs={12} md={4}>
-                    <img style={{maxWidth:'250px'}} src={require('../../assets/fib2.gif')}/>
+                    <img className="v-spacer"style={{maxWidth:'250px'}} src={require('../../assets/fib2.gif')} alt=''/>
                 </Col>
 
                 <Col  xs={12} md={8}>

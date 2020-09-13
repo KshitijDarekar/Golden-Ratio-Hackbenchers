@@ -2,9 +2,9 @@ import React from "react";
 import "../../App.js";
 import {Container , Row, Col} from 'react-bootstrap/';
 
+// Golden Rectangle Page starts here
 function MathRect(){
     return (
-
         <>
         <Container >
             
@@ -12,7 +12,7 @@ function MathRect(){
                 <Col  xs={12} md={8}>
                 <div data-aos="fade-up" className='info-container'>
                 <h3>The Golden Rectangle</h3>
-                 <img className = "maths-rect-2" style={{maxWidth:'300px'}} src={require('../../assets/Golden_Rectangle_Construction.svg')} /> <br/>
+                 <img className = "maths-rect-2 v-spacer" style={{maxWidth:'300px'}} src={require('../../assets/Golden_Rectangle_Construction.svg')} alt=''/> <br/>
 
                  <p>
                  In geometry, a golden rectangle is a rectangle whose side lengths are in the golden ratio, 

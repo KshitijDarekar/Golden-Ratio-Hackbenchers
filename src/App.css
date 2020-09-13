@@ -1,155 +1,126 @@
-body{
+body {
   background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
-  /* background-image: url('./assets/header.svg'); */
   background-size: cover;
   background-attachment: fixed;
-  
-}
-
-.math-container .container{
-  max-width: 100%;
-}
-.info-container{
-  background-color: blanchedalmond;
-    font-weight: 400;
-    font-size: 28px;
-    padding: 10px 15px;
-    box-shadow: 3px 6px rgba(0,0,0,0.2)!important;
-    border-radius: 10px;
 }
 
 .v-spacer {
   padding: 20px 0px;
 }
 
-@media (min-width: 576px){
+/* <=================================> */
+
+/* <=================================> */
+/* Home */
+@media (min-width: 576px) {
   .introduction-wrapper {
-    /* margin-left: 125px;
-    margin-right: 125px; */
     padding: 10rem;
-}
-
-
-}
-
-
-@media (max-width: 576px){
-  .header-image {
-    /* background: url("./assets/header.svg"); */
-    background: url("./assets/math_bg2.jpg");
-
-  -webkit-margin-top-collapse: collapse;
   }
-  .back{
-    background:url("./assets/mathsbg.jpg")!important;
-    background-size: inherit!important;
-    max-height: 200px!important;
-    background-attachment: fixed!important;
-    box-shadow: 3px 6px rgba(0,0,0,0.2)!important;
-    background-position:center!important;
-}
 }
 
-.back{
-  background:url("./assets/mathsbg.jpg")!important;
-  background-size: cover!important;
-  height: 500px!important;
-  background-attachment: fixed!important;
-  box-shadow: 3px 6px rgba(0,0,0,0.2)!important;
-  background-position:center!important;
+@media (max-width: 576px) {
+  .header-image {
+    background: url("./assets/math_bg2.jpg");
+    -webkit-margin-top-collapse: collapse;
+  }
+  .back {
+    background: url("./assets/mathsbg.jpg") !important;
+    background-size: inherit !important;
+    max-height: 200px !important;
+    background-attachment: fixed !important;
+    box-shadow: 3px 6px rgba(0, 0, 0, 0.2) !important;
+    background-position: center !important;
+  }
 }
 
-.header-image{
-  /* background: url("./assets/header.svg"); */
+.back {
+  background: url("./assets/mathsbg.jpg") !important;
+  background-size: cover !important;
+  height: 500px !important;
+  background-attachment: fixed !important;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2) !important;
+  background-position: center !important;
+}
+
+.header-image {
   background: url("./assets/math_bg2.jpg");
   background-size: cover;
   height: 500px;
   background-attachment: fixed;
   margin-left: 0;
   margin-right: 0;
-  box-shadow: 3px 6px rgba(0,0,0,0.2);
-  background-position:center!important;
-
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+  background-position: center !important;
 }
 
-.Intropara{
+.Intropara {
   font-size: 20px;
   margin: 20px 20px 20px 20px;
   padding: 10px;
   background-color: azure;
   border-radius: 0 20px 0 20px;
-  box-shadow: 3px 6px rgba(0,0,0,0.2);
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
   padding: 30px 30px 30px 30px;
-
 }
-.Intropara2{
-  font-size: 20px; margin: 20px 20px 20px 20px;padding: 10px;
+.Intropara2 {
+  font-size: 20px;
+  margin: 20px 20px 20px 20px;
+  padding: 10px;
   border-radius: 0 20px 0 20px;
-  box-shadow: 3px 6px rgba(0,0,0,0.2);
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
   padding: 30px 30px 30px 30px;
   margin: 20px 20px 20px 20px;
   background-color: bisque;
 }
-@media (min-width: 576px){
+@media (min-width: 576px) {
   .Para-three-holder {
     margin-left: 125px;
     margin-right: 125px;
+  }
 }
-}
-/* .Para-three-holder{
-  margin-left: 125px;
-  margin-right: 125px;
-} */
 
-.Intropara-three{
-  background-color:white;
-  font-size: 20px; margin: 20px 20px 20px 20px;padding: 10px;
+.Intropara-three {
+  background-color: white;
+  font-size: 20px;
+  margin: 20px 20px 20px 20px;
+  padding: 10px;
   border-radius: 20px 20px 20px 20px;
-  box-shadow: 3px 6px rgba(0,0,0,0.2);
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
   padding: 30px 30px 30px 30px;
   margin: 20px 20px 20px 20px;
   text-align: -webkit-left;
   line-height: 3.5rem;
 }
 
-.Intropara-three-text{
+.Intropara-three-text {
   background: aliceblue;
   border-radius: 20px;
   padding: 20px;
 }
-@media (max-width: 576px){
+@media (max-width: 576px) {
   .video {
     display: flex;
     flex-wrap: wrap;
-}
-
-.golden-fibonacci{
-  max-width: 276px;
-  max-height: 400px;
+    height:400px;
   }
 
-
-}
-/* .Intropara-three .p{
-  .Intropara-three{
-    background: aliceblue;
-    border-radius: 20px;
-    padding: 20px;
+  .golden-fibonacci {
+    max-width: 276px;
+    max-height: 400px;
   }
-} */
-.frontpageImg{
-  box-shadow: 3px 6px rgba(0,0,0,0.5);
-  margin-top: 20px;
-  margin-bottom: 30px;
-
 }
+
+.frontpageImg {
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
 .App {
   text-align: center;
   transition: 0.6s ease-out;
-  /* overflow-x: hidden; */
 }
 
-.meditate{
+.meditate {
   height: 20vmin;
 }
 
@@ -185,30 +156,123 @@ body{
   }
   to {
     transform: rotate(360deg);
-
   }
 }
-.mathCard{
+/* <=================================> */
+
+/* <=================================> */
+/* Mathematics */
+.math-container .container {
+  max-width: 100%;
+}
+.info-container {
+  background-color: white;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 10px 15px;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2) !important;
+  border-radius: 10px;
+}
+
+.mathCard {
   margin-top: -100px;
   height: 100vh;
   margin-left: 20px;
-  box-shadow: 3px 6px rgba(0,0,0,0.2);
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
   margin-bottom: 20px;
 
   max-width: 250px;
-    max-height: 100vh
-
+  max-height: 100vh;
 }
-active carousel-item.d-block w-100{
+.math {
+  background: url("./assets/math_bg2.jpg") !important;
+}
+
+.header-image {
+  background: url("./assets/math_bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  background-attachment: fixed;
+  opacity: 0.75;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.math-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* Image of MathInto */
+.mathsImg {
+  height: 50vmin;
+}
+
+.mathintro {
+  box-shadow: 3px 6px rgba(0.5, 0.75, 0.5, 0.5);
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.golden-rectangles-3 {
+  max-width: 300px;
+}
+
+.Icosahedron-golden-rectangles {
+  max-width: 300px;
+  max-height: 500px;
+}
+/* <=================================> */
+
+/* <=================================> */
+/* Application */
+
+.slide-container {
+  height: 50%;
+}
+
+/* Card Application */
+.card-wrapper {
+  width: 70%;
+  /* justify-content: center; */
+  margin-left: 21%;
+}
+
+.jumbo-text {
+  font-size: 32px;
+}
+
+.card-img-top {
+  height: 366px;
+  border-style: inset;
+}
+.card-img-top:hover {
+  border-radius: 30%;
+  border-width: 10px;
+  /* border-radius: 80px; */
+}
+@media (min-width: 576px) {
+  .card-deck {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-right: 12px;
+    margin-left: 12px;
+  }
+}
+.card-deck-two {
+  margin-top: 50px;
+}
+active carousel-item.d-block w-100 {
   max-height: 400px;
   max-width: 800px;
-  /* display: flex!important; */
   flex-wrap: wrap;
   justify-content: center;
-  display:none!important
+  display: none !important;
 }
-/* Application */
-.bg-light text-dark card{
+
+.bg-light text-dark card {
   width: 800px;
 }
 
@@ -217,117 +281,25 @@ active carousel-item.d-block w-100{
   margin-right: 30px;
   background-color: black;
 }
+/* <=================================> */
 
-
-.math{
-  background: url("./assets/math_bg2.jpg")!important;
-
-}
-
-.header-image{
-  /* background: url("./assets/math_bg3.jpg"); */
-  background: url("./assets/math_bg2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px;
-  background-attachment: fixed;
-  opacity: 0.75;
-  box-shadow: 3px 6px rgba(0,0,0,0.2);
-
-
-}
-
-/* .add{
-  margin-left: 80px;
-  margin-right: 80px;
-} */
-
-
-.math-container{
-  display: flex;
-  flex-wrap: wrap;
-}
-/* Image of MathInto */
-  .mathsImg{
-  height: 50vmin;
-}
-
-/* .mathsImg2{
-  left: 4rem;
-  position: absolute;
-  height: 16rem;
-  width : 20rem;
-  border: darkslategray;
-  border-width: 20px;
-  box-shadow: 3px 6px rgba(0.5,0.75,0.5,0.5);
-  border-radius: 20px;
- 
-} */
-.strollimg{
-  height: 60vmin;
-  width : 35vmin;
-  float: left;
-margin-top: 70vmin;
-display: contents;
-}
-.jumping{
-  height: 60vmin;
-  width : 35vmin;
-  float: left;
-}
-.mathintro{
-  box-shadow: 3px 6px rgba(0.5,0.75,0.5,0.5);
-  padding :25px;
-  display: flex;
-  flex-wrap: wrap;
-}
-/* .mathsImg-rect{
-  position: absolute;
-  top: 47em;
-  left: 2em;
-  max-width: 350px;
-  background: floralwhite;
-  border-radius: 2rem;
-  color: black;
-} */
-
-
-/* .maths-rect-2{
-
-} */
-.golden-rectangles-3 {
-    max-width: 300px;
-}
-
-.Icosahedron-golden-rectangles{
-    max-width: 300px;
-    max-height: 500px;
-}
-
+/* <=================================> */
 /* footer */
-.footerContainer{
-  /* height: 280px;
-  position: sticky bottom ;
-  /* background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
- background-blend-mode: multiply,multiply; */
- /* margin-top: 50px;
- background-color: #343a40;
- border-top: wheat;
- position: relative; */
- background-color: #222b37;
-    color: #fff;
-    position: relative;
-    bottom: 0px;
-    width: 100%;
-    z-index: 999;
+.footerContainer {
+  background-color: #222b37;
+  color: #fff;
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  z-index: 999;
 }
 
-.footerInside{
+.footerInside {
   text-align: center;
-  /* margin-top: 20px; */
+  padding:'15px';
 }
 
-.footerText{
+.footerText {
   color: white;
   font-size: 18px;
   font-weight: 400;
@@ -337,200 +309,6 @@ display: contents;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  align-items: center
+  align-items: center;
 }
-
-/* Example - Slides*/
-/* ,.active carousel-item , .d-block w-100 */
-/* .carousel-control-prev{
-  height: 400px;
-  width: 800px;
-}
-.carousel-control-next{
-  height: 400px;
-  width: 800px;
-}
-.carousel-item {
-  height: 400px;
-  width: 800px;
-  justify-content: center;
-  vertical-align: middle;
-} */
-
-/* slide.js css */
-/* Example */
-.reading{
-
-}
-.slide-container {
-  /* width: 50%;
-  margin-top: 10px; */
-  height: 50%;
-}
-
-.slide-container .carousel {
-  /* left: 25% */
-}
-
-
-/* Card Application */
-
-.card-wrapper{
-  width: 70%;
-    /* justify-content: center; */
-    margin-left: 21%;
-}
-  .kshitij:hover {
-   /* background-color: red !important;
-   zoom: 30%; */
-    background-color: turquoise;
-
-  }
-  .jumbo-text{
-    font-size: 32px;
-  }
-  /* .img.card-img-top{
-    height: 366px;
-  } */
-  .card-img-top{
-    height: 366px ;
-    border-style: inset ;
-  }
-  .card-img-top:hover{
-    border-radius: 30%;
-    border-width: 10px;
-    /* border-radius: 80px; */
-  }
-  @media (min-width: 576px){
-    .card-deck {
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-flow: row wrap;
-      flex-flow: row wrap;
-      margin-right: 12px;
-      margin-left: 12px;
-  }
-  }
-  .card-deck-two{
-    margin-top: 50px;
-  }
-
-
-  /* Example page header paragraph */
-  .example-para{
-    position: absolute;
-    top: 11rem;
-    left: 2rem;
-    font-size: 24px;
-    display: flex;
-    flex-wrap: wrap;
-    background-attachment: scroll
-  }
-
-
-  /* CSS EFFECTS */
-
-  /* .hvr-float {
-    display: inline-block;
-    vertical-align: middle;
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    transition-duration: 0.3s;
-    transition-property: transform;
-    transition-timing-function: ease-out;
-  }
-  .hvr-float:hover,
-  .hvr-float:focus,
-  .hvr-float:active {
-    transform: translateY(-8px);
-  } */
-
-  /* .hvr-icon-forward:before {
-    content: "\f138";
-    position: absolute;
-    right: 1em;
-    padding: 0 1px;
-    font-family: FontAwesome;
-    transform: translateZ(0);
-    transition-duration: 0.1s;
-    transition-property: transform;
-    transition-timing-function: ease-out;
-} */
-
-/* Grow */
-.hvr-grow {
-  display: inline-block;
-  vertical-align: middle;
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  transition-duration: 0.4s;
-  transition-property: transform;
-}
-
-.hvr-grow:hover,
-.hvr-grow:focus,
-.hvr-grow:active {
-  transform: scale(1.1);
-}
-
-
-.hvr-grow-shadow {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: box-shadow, transform;
-  transition-property: box-shadow, transform;
-}
-
-.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
-  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-/* Float Shadow */
-.hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
-  -webkit-transform: translateY(-5px);
-  transform: translateY(-5px);
-}
-.hvr-float-shadow {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  position: relative;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-
-/* hvr-wobble-bottom */
-.hvr-wobble-bottom:hover, .hvr-wobble-bottom:focus, .hvr-wobble-bottom:active {
-  -webkit-animation-name: hvr-wobble-bottom;
-  animation-name: hvr-wobble-bottom;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-}
-.hvr-wobble-bottom{
-  display: inline-block;
-vertical-align: middle;
--webkit-transform: perspective(1px) translateZ(0);
-transform: perspective(1px) translateZ(0);
-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
--webkit-transform-origin: 100% 0;
-transform-origin: 100% 0;
-}
+/* <=================================> */
