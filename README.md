@@ -1,7 +1,7 @@
 ## About 
 This is a informative, responsive web application which provides you all the fascinating details<br/>
 about the Golden Ratio or the Divine Ratio.The Golden ratio is a special irrational number like pi (π) represented as <br/>phi, Φ.Its value is around 1.61803398874989484820...<br/>You will completely understand what is this ratio and why  it is  divine after visiting the website [Click Here](https://golden-ratio-hackbenchers.herokuapp.com/)<br/>
-This project is a part of Hackbenchers 3.HackBenchers is a series of beginner-level hacks exclusively<br.> 
+This project is a part of Hackbenchers 3.HackBenchers is a series of beginner-level hacks exclusively<br/> 
 for school students and undergraduates to leverage their scope of improvement in science and technology.<br/>
 The theme of this Hackathon is :"Identify The Golden Ratio In Everyday Objects ".<br/>
 
