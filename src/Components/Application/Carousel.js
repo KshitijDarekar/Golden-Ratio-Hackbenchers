@@ -5,7 +5,7 @@ import CarouselData from "./CarouselData"
 //Carousel is defined here and is used in the Application Component
 function Carousels(){
     return(
-        <div data-aos="fade-up" className="slide-container">
+        <div  className="slide-container">
             <Carousel >
             {CarouselData.map(item => 
                 // Map data from CarouselData.js
