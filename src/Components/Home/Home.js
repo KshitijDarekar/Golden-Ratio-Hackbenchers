@@ -6,10 +6,11 @@ import BasicInfo from './BasicInfo.js'
 import Video from './Video.js'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Base from '../Core/Base';
 
 //  this is the main Parent component of the Home Tab  
 // Home page start here!
-function Introduction(){
+function Home(){
 
     useEffect( ()=>{
         Aos.init(
@@ -23,7 +24,7 @@ function Introduction(){
             );
     },[]);
     return(
-        <>
+        <Base>
         <div  className="header-image back">
         <span style={{fontSize:'64px',fontWeight:'700',paddingTop:'40px',color:'black',
                         textShadow: '3px 6px rgba(50,50,70,0.5)', fontFamily: 'cursive' }}> 
@@ -66,8 +67,8 @@ function Introduction(){
 
         </div>
     </div>
-     </>      
+     </Base>      
     )
 }
 
-export default Introduction 
+export default Home; 
